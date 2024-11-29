@@ -35,3 +35,27 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//*******************************
+
+// Stack (Primitive),Heap(non-primitive)
+
+let myNamebe = "ritviz"
+let anothername = myNamebe
+anothername = "Aloo baingan"
+ console.log(anothername);
+ console.log(myNamebe);
+ 
+ let user1 = {
+    email: "ritviztiwari07@gmail.com",
+    upi: "user1@oksbi" 
+ }
+
+ let userTwo = user1
+
+ userTwo.email = "1asdfgfsa@gmail.com"
+
+ console.log(user1.email);
+ console.log(userTwo.email);
+ 
